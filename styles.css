@@ -4,7 +4,7 @@
 	display:flex;
 		   display:grid;
 	}
-.container>nav{border:1px solid blue;
+.nav{border:1px solid blue;
 	background-color:#D7E8D4;
 	height:100px;
 			   width:120px;
@@ -12,24 +12,24 @@
 			  
 }
 
-div>header{border:1px solid blue;
+.header{border:1px solid blue;
 	background-color:yellowgreen;
 	height:120px
 		width:480px;
 		   padding:1em;
 }
-div>article{border:1px solid blue;
+.article{border:1px solid blue;
 	height:360px;
 	width:360px;
 			padding:1em;
 }
-div>aside{border:1px solid blue;
+.aside{border:1px solid blue;
 	background-color:#f5f5dc;
 	height:360px;
 	width:120px;
 		  padding:1em;
 }
-div>footer{
+.footer{
 	border:1px solid blue;
 	background-color:yellowgreen;
 	height:120px;
