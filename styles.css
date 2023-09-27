@@ -1,30 +1,37 @@
 /*  your css code here. If applicable */
-.container{
-	padding:1em;
-	display:grid;
-	grid-template-columns:auto auto auto;
-	grid-template-rows:auto auto auto;
-}
-div >nav{border:1px solid blue;
-	color:black;
+.container{height:600px;
+		   width:600px;
+	display:flex;
+		   display:grid;
+	}
+.container>nav{border:1px solid blue;
 	background-color:#D7E8D4;
-	width:1/6vw;
+	height:100px;
+			   width:120px;
+			   padding:1em;
+			  
 }
+
 div>header{border:1px solid blue;
 	background-color:yellowgreen;
-	height:1/5vh;
+	height:120px
+		width:480px;
+		   padding:1em;
 }
 div>article{border:1px solid blue;
-	height:60vh;
-	width:3/5vw;
+	height:360px;
+	width:360px;
+			padding:1em;
 }
 div>aside{border:1px solid blue;
 	background-color:#f5f5dc;
-	height:60vh;
-	width:2/5vw;
+	height:360px;
+	width:120px;
+		  padding:1em;
 }
 div>footer{
 	border:1px solid blue;
 	background-color:yellowgreen;
-	height:1/5vh;
+	height:120px;
+	padding:1em;
 }
