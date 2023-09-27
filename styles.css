@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+.container{
+	padding:1em;
+	display:grid;
+	grid-template-columns:auto auto auto;
+	grid-template-rows:auto auto auto;
+}
+div >nav{border:1px solid blue;
+	color:black;
+	background-color:#D7E8D4;
+	width:1/6vw;
+}
+div>header{border:1px solid blue;
+	background-color:yellowgreen;
+	height:1/5vh;
+}
+div>article{border:1px solid blue;
+	height:60vh;
+	width:3/5vw;
+}
+div>aside{border:1px solid blue;
+	background-color:#f5f5dc;
+	height:60vh;
+	width:2/5vw;
+}
+div>footer{
+	border:1px solid blue;
+	background-color:yellowgreen;
+	height:1/5vh;
+}
