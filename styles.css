@@ -1,37 +1,51 @@
-/*  your css code here. If applicable */
-.container{height:600px;
-		   width:600px;
-	display:flex;
-		   display:grid;
-	}
-.nav{border:1px solid blue;
-	background-color:#D7E8D4;
-	height:100px;
-			   width:120px;
-			   padding:1em;
-			  
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.header{border:1px solid blue;
-	background-color:yellowgreen;
-	height:120px
-		width:480px;
-		   padding:1em;
+.container {
+    display: flex;
+    flex: 1;
 }
-.article{border:1px solid blue;
-	height:360px;
-	width:360px;
-			padding:1em;
+
+.navbar {
+    background-color: #D7E8D4;
+    flex: 1;
+    min-width: 16.66%; /* 1/6 of 100% */
+    padding: 1em;
 }
-.aside{border:1px solid blue;
-	background-color:#f5f5dc;
-	height:360px;
-	width:120px;
-		  padding:1em;
+
+.main-content {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    width: 83.33%; /* 5/6 of 100% */
 }
-.footer{
-	border:1px solid blue;
-	background-color:yellowgreen;
-	height:120px;
-	padding:1em;
+
+.header,
+.footer {
+    background-color: yellowgreen;
+    flex: 1;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    flex: 4;
+}
+
+.article {
+    flex: 3;
+    min-height: 60vh;
+    padding: 1em;
+}
+
+.aside {
+    flex: 1;
+    padding: 1em;
 }
